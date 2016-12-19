@@ -15,6 +15,8 @@ hints:
      - package: hive-hexagon
        version: [ "1.3" ]
        specs: [ "http://doi.org/10.1371/journal.pone.0099033" ]
+  #DockerRequirement:
+  #  dockerPull: hive/hexagon/1.3
 
 inputs:
  seed:

@@ -15,6 +15,8 @@ hints:
      - package: hive-heptagon
        version: [ "1.1" ]
        # specs: []
+  #DockerRequirement
+  #  dockerPull: hive/heptagon/1.1
 
 inputs:
  min_coverage:
