@@ -8,10 +8,11 @@
         "http://schema.org/",
         "https://w3id.org/bundle/context"
     ],
-    "@id": "biocompute:1001",
     "id": "/",
-    "retrievedFrom": "https://hive.biochemistry.gwu.edu/biocompute/TODO/1001.bundle.zip",
     "manifest":  "manifest.json",
+
+    "@id": "biocompute:1001",
+    "retrievedFrom": "https://hive.biochemistry.gwu.edu/biocompute/TODO/1001.bundle.zip",
 
     "createdOn": "2016-06-09T08:12:14-0500",
     "createdBy": {
@@ -46,31 +47,31 @@
           "mediatype": "application/json",
           "conformsTo": "https://hive.biochemistry.gwu.edu/biocompute/spec-TODO"
         },
-        { "uri":  "/hive-viral-mutation-detection.cwl",
+        { "uri":  "/workflow/hive-viral-mutation-detection.cwl",
           "mediatype": "application/x-yaml",
           "conformsTo": "https://w3id.org/cwl/v1.0/"
         },
-        { "uri":  "/hive-hexagon.cwl",
+        { "uri":  "/workflow/hive-hexagon.cwl",
           "mediatype": "application/x-yaml",
           "conformsTo": "https://w3id.org/cwl/v1.0/"
         },
-        { "uri":  "/obj.1001.yaml",
+        { "uri":  "/workflow/obj.1001.yaml",
           "mediatype": "application/json"
         },
-        { "uri":      "/SNPProfile.csv",
+        { "uri":      "/data/SNPProfile.csv",
           "mediatype": "text/csv"
         },
-        { "uri":      "/SNPProfile.vcf",
+        { "uri":      "/data/SNPProfile.vcf",
           "mediatype": "text/plain",
           "conformsTo": "http://samtools.github.io/hts-specs/VCFv4.2.pdf"
         },
-        { "uri":      "/SNPProfile.sam",
+        { "uri":      "/data/SNPProfile.sam",
           "conformsTo": "http://samtools.github.io/hts-specs/SAMv1.pdf"
         },
-        { "uri":      "/AACalls.csv",
+        { "uri":      "/data/AACalls.csv",
           "mediatype": "text/csv"
        },
-        { "uri":      "/AACalls.vcf",
+        { "uri":      "/data/AACalls.vcf",
           "mediatype": "text/plain",
           "conformsTo": "http://samtools.github.io/hts-specs/VCFv4.2.pdf"
         },
@@ -83,11 +84,16 @@
     ],
 
     "annotations": [
-      { "about": "/hive-viral-mutation-detection.cwl",
+      { "about": "/workflow/hive-viral-mutation-detection.cwl",
         "oa:motivatedBy": "oa:highlighting"
       },
-      { "about":   "/biocompute.json",
-        "content": ["/hive-viral-mutation-detection.cwl", "/obj.1001.yaml"],
+      { "about":   "/workflow/hive-viral-mutation-detection.cwl",
+        "content": "/workflow/obj.1001.yaml",
+        "oa:motivatedBy": "oa:moderating"
+      },
+      { "about":  ["/workflow/hive-viral-mutation-detection.cwl",
+                   "/workflow/obj.1001.yaml"],
+        "content": "/biocompute.json",
         "oa:motivatedBy": "oa:describing"
       },
       { "about":   "/",
@@ -106,6 +112,6 @@
       { "about":   "http://www.ebi.ac.uk/ena/data/view/JQ434001&display=fasta",
         "content": "http://identifiers.org/insdc/JQ434001.1",
         "oa:motivatedBy": "oa:identifying"
-      },
+      }
     ]
 }
