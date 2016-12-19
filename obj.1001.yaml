@@ -1,0 +1,17 @@
+#!/usr/bin/env cwl-wrapper
+cwl:tool: hive-viral-mutation-detection.cwl
+alignment_seed: 14
+alignment_minimum_match_len: 50
+alignment_divergence_threshold_percent: 10
+variant_calling_minimum_coverage: 20
+variant_frequency_cutoff: 0.20
+reference_sequence:
+ - class: File
+   location: http://www.ebi.ac.uk/ena/data/view/JQ434001&display=fasta
+ - class: File
+   location: hive:Honeycomb:obj.00123
+sequence_reads:
+ - class: File
+   location: hive:Honeycomb:obj.00013
+ - class: File
+   location: hive:Honeycomb:obj.00065
