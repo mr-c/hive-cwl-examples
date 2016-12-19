@@ -1,7 +1,7 @@
 #!/usr/bin/env cwl-runner
 
 cwlVersion: v1.0
-class: Worklfow
+class: Workflow
 label: The HIVE Viral Mutation Detection Pipeline
 doc: |
   Mock description of the HIVE Viral Mutation Detection Pipeline, based upon
@@ -32,7 +32,7 @@ inputs:
    type: int
    default: 10
  variant_calling_frequency_cutoff:
-   type: real
+   type: float
    default: 0.10
 
 steps:
@@ -77,4 +77,5 @@ outputs:
 $namespaces:
   edam: http://edamontology.org/
   iana_media: http://www.iana.org/assignments/media-types
-$schemas: [ http://edamontology.org/EDAM_1.16.owl ]
+$schemas: 
+  - http://edamontology.org/EDAM_1.16.owl

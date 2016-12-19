@@ -1,5 +1,7 @@
 #!/usr/bin/env cwl-wrapper
 cwl:tool: hive-viral-mutation-detection.cwl
+label: |
+ "HCV1a[taxID:31646] ledipasvir[PubChem: 67505836] resistance SNP [SO:0000694]"
 alignment_seed: 14
 alignment_minimum_match_len: 50
 alignment_divergence_threshold_percent: 10
@@ -8,10 +10,15 @@ variant_frequency_cutoff: 0.20
 reference_sequence:
  - class: File
    location: http://www.ebi.ac.uk/ena/data/view/JQ434001&display=fasta
+   format: http://edamontology.org/format_1929  # FASTA
  - class: File
    location: hive:Honeycomb:obj.00123
+   format: http://edamontology.org/format_1929  # FASTA
 sequence_reads:
  - class: File
    location: hive:Honeycomb:obj.00013
+   format: http://edamontology.org/format_1929  # FASTA
  - class: File
    location: hive:Honeycomb:obj.00065
+   format: http://edamontology.org/format_1929  # FASTA
+
