@@ -4,7 +4,7 @@ cwlVersion: v1.0
 class: CommandLineTool
 label: The HIVE Heptagon variant caller
 doc: |
-  Mock description of the HIVE Hexagon variant caller, based upon public
+  Mock description of the HIVE Heptagon variant caller, based upon public
   information
 
 requirements:
