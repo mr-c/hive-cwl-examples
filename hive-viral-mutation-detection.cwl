@@ -1,11 +1,23 @@
 #!/usr/bin/env cwl-runner
 
 cwlVersion: v1.0
-class: Worklfow
+class: Workflow
 label: The HIVE Viral Mutation Detection Pipeline
+schema:version: 1.2
 doc: |
   Mock description of the HIVE Viral Mutation Detection Pipeline, based upon
   public information
+
+schema:author:
+  class: schema:Person
+  schema:name: Charles Darwin
+  schema:sameAs
+   - id: http://www.isni.org/isni/0000000121251077
+schema:author:
+  class: schema:Person
+  schema:name: Rosalind Franklin
+  schema:sameAs
+   - id: http://www.isni.org/isni/0000000066799514
 
 inputs:
  reference_sequence:
@@ -32,7 +44,7 @@ inputs:
    type: int
    default: 10
  variant_calling_frequency_cutoff:
-   type: real
+   type: float
    default: 0.10
 
 steps:
@@ -77,4 +89,7 @@ outputs:
 $namespaces:
   edam: http://edamontology.org/
   iana_media: http://www.iana.org/assignments/media-types
-$schemas: [ http://edamontology.org/EDAM_1.16.owl ]
+  schema: http://schema.org/
+$schemas: 
+  - http://edamontology.org/EDAM_1.16.owl
+  - http://schema.org/docs/schema_org_rdfa.html
