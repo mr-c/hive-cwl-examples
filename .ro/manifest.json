@@ -1,0 +1,107 @@
+{
+    "@context":  [
+        {"biocompute": "https://hive.biochemistry.gwu.edu/biocompute/view/",
+          "DO": "http://identifiers.org/TODO/DO/",
+          "ICD": "http://identifiers.org/TODO/ICD/",
+          "taxID": "http://identifiers.org/TODO/taxID/"
+        },
+        "http://schema.org/",
+        "https://w3id.org/bundle/context"
+    ],
+    "@id": "biocompute:1001",
+    "id": "/",
+    "retrievedFrom": "https://hive.biochemistry.gwu.edu/biocompute/TODO/1001.bundle.zip",
+    "manifest":  "manifest.json",
+    "createdOn": "2016-06-09T08:12:14-0500",
+    "createdBy": {
+        "uri":     "https://hive.biochemistry.gwu.edu/",
+        "name":    "HIVE BioCompute"
+    },
+    "authoredOn": "2016-06-06T13:25:21-0500",
+    "authoredBy": [
+      {
+        "uri":     "biocompute:TODO-1",
+        "orcid":   "http://orcid.org/0000-0002-1825-0097#TODO",
+        "name":    "Charles Darwin",
+        "affiliation": {
+          "name": "HMS Beagle"
+        }
+      },
+      {
+        "uri":     "biocompute:TODO-2",
+        "orcid":   "http://orcid.org/0000-0002-1825-0097#TODO",
+        "name":    "Rosalind Franklin",
+        "affiliation": {
+          "url": "http://www.kcl.ac.uk/",
+          "name": "King's College, London"
+        }
+      }
+    ],
+    "aggregates": [
+
+        { "uri":  "/biocompute.json",
+          "mediatype": "application/json",
+          "conformsTo": "https://hive.biochemistry.gwu.edu/biocompute/spec-TODO"
+        },
+        { "uri": "http://www.ebi.ac.uk/ena/data/view/JQ434001&display=fasta",
+          "conformsTo": "http://edamontology.org/format_1929"
+        },
+        { "uri": "https://hive.biochemistry.gwu.edu/biocompute/view/00123"},
+        { "uri": "https://hive.biochemistry.gwu.edu/biocompute/view/00013"},
+        { "uri": "https://hive.biochemistry.gwu.edu/biocompute/view/10065"},
+        { "uri":  "/hive-viral-mutation-detection.cwl",
+          "mediatype": "application/x-yaml",
+          "conformsTo": "https://w3id.org/cwl/v1.0/"
+        },
+        { "uri":  "/hive-hexagon.cwl",
+          "mediatype": "application/x-yaml",
+          "conformsTo": "https://w3id.org/cwl/v1.0/"
+        },
+        { "uri":  "/obj.1001.yaml",
+          "mediatype": "application/json"
+        },
+        { "uri":      "/SNPProfile.csv",
+          "mediatype": "text/csv"
+        },
+        { "uri":      "/SNPProfile.vcf",
+          "mediatype": "text/plain",
+          "conformsTo": "http://samtools.github.io/hts-specs/VCFv4.2.pdf"
+        },
+        { "uri":      "/SNPProfile.sam",
+          "conformsTo": "http://samtools.github.io/hts-specs/SAMv1.pdf"
+        },
+        { "uri":      "/AACalls.csv",
+          "mediatype": "text/csv"
+       },
+        { "uri":      "/AACalls.vcf",
+          "mediatype": "text/plain",
+          "conformsTo": "http://samtools.github.io/hts-specs/VCFv4.2.pdf"
+        }
+    ],
+    "annotations": [
+      { "about": "/hive-viral-mutation-detection.cwl",
+        "oa:motivatedBy": "oa:highlighting"
+      },
+      { "about":   ["/hive-viral-mutation-detection.cwl", "/obj.1001.yaml"],
+        "content": "/biocompute.json",
+        "oa:motivatedBy": "oa:describing"
+      },
+      { "about":   "/",
+        "oa:bodyValue": "antiviral resistance",
+        "oa:motivatedBy": "oa:tagging",
+        "content": "http://example.com/ontology/antiviral"
+      },
+      { "about":   "/",
+        "oa:motivatedBy": "oa:tagging",
+        "oa:bodyValue": "SNP"
+      },
+      { "about":   "/",
+        "content": ["DO:1883", "ICD:B17", "taxID:9606"],
+        "oa:motivatedBy": "oa:linking"
+      },
+      { "about":   "http://www.ebi.ac.uk/ena/data/view/JQ434001&display=fasta",
+        "content": "http://identifiers.org/insdc/JQ434001.1",
+        "oa:motivatedBy": "oa:identifying"
+      },
+    ]
+}
