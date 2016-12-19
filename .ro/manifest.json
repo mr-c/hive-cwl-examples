@@ -12,11 +12,13 @@
     "id": "/",
     "retrievedFrom": "https://hive.biochemistry.gwu.edu/biocompute/TODO/1001.bundle.zip",
     "manifest":  "manifest.json",
+
     "createdOn": "2016-06-09T08:12:14-0500",
     "createdBy": {
         "uri":     "https://hive.biochemistry.gwu.edu/",
         "name":    "HIVE BioCompute"
     },
+
     "authoredOn": "2016-06-06T13:25:21-0500",
     "authoredBy": [
       {
@@ -37,18 +39,13 @@
         }
       }
     ],
+
     "aggregates": [
 
         { "uri":  "/biocompute.json",
           "mediatype": "application/json",
           "conformsTo": "https://hive.biochemistry.gwu.edu/biocompute/spec-TODO"
         },
-        { "uri": "http://www.ebi.ac.uk/ena/data/view/JQ434001&display=fasta",
-          "conformsTo": "http://edamontology.org/format_1929"
-        },
-        { "uri": "https://hive.biochemistry.gwu.edu/biocompute/view/00123"},
-        { "uri": "https://hive.biochemistry.gwu.edu/biocompute/view/00013"},
-        { "uri": "https://hive.biochemistry.gwu.edu/biocompute/view/10065"},
         { "uri":  "/hive-viral-mutation-detection.cwl",
           "mediatype": "application/x-yaml",
           "conformsTo": "https://w3id.org/cwl/v1.0/"
@@ -76,14 +73,21 @@
         { "uri":      "/AACalls.vcf",
           "mediatype": "text/plain",
           "conformsTo": "http://samtools.github.io/hts-specs/VCFv4.2.pdf"
+        },
+        { "uri": "https://hive.biochemistry.gwu.edu/biocompute/view/00123"},
+        { "uri": "https://hive.biochemistry.gwu.edu/biocompute/view/00013"},
+        { "uri": "https://hive.biochemistry.gwu.edu/biocompute/view/10065"},
+        { "uri": "http://www.ebi.ac.uk/ena/data/view/JQ434001&display=fasta",
+          "conformsTo": "http://edamontology.org/format_1929"
         }
     ],
+
     "annotations": [
       { "about": "/hive-viral-mutation-detection.cwl",
         "oa:motivatedBy": "oa:highlighting"
       },
-      { "about":   ["/hive-viral-mutation-detection.cwl", "/obj.1001.yaml"],
-        "content": "/biocompute.json",
+      { "about":   "/biocompute.json",
+        "content": ["/hive-viral-mutation-detection.cwl", "/obj.1001.yaml"],
         "oa:motivatedBy": "oa:describing"
       },
       { "about":   "/",
