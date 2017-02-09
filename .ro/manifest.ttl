@@ -1,0 +1,149 @@
+<https://hive.biochemistry.gwu.edu/biocompute/view/1001>
+        <http://purl.org/pav/authoredBy>
+                <https://hive.biochemistry.gwu.edu/biocompute/view/TODO-2> , <https://hive.biochemistry.gwu.edu/biocompute/view/TODO-1> ;
+        <http://purl.org/pav/authoredOn>
+                "2016-06-06T13:25:21-0500"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/pav/createdBy>
+                <https://hive.biochemistry.gwu.edu/> ;
+        <http://purl.org/pav/createdOn>
+                "2016-06-09T08:12:14-0500"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/pav/retrievedFrom>
+                <https://hive.biochemistry.gwu.edu/biocompute/TODO/1001.bundle.zip> ;
+        <http://purl.org/wf4ever/bundle#hasAnnotation>
+                [ <http://www.w3.org/ns/oa#hasBody>
+                          <app://26f0bba5-f6d5-4eb6-9b6c-fe8d6c0d7274/workflow/obj.1001.yaml> ;
+                  <http://www.w3.org/ns/oa#hasTarget>
+                          <app://26f0bba5-f6d5-4eb6-9b6c-fe8d6c0d7274/workflow/hive-viral-mutation-detection.cwl> ;
+                  <http://www.w3.org/ns/oa#motivatedBy>
+                          "oa:moderating"
+                ] ;
+        <http://purl.org/wf4ever/bundle#hasAnnotation>
+                [ <http://www.w3.org/ns/oa#hasBody>
+                          <http://identifiers.org/insdc/JQ434001.1> ;
+                  <http://www.w3.org/ns/oa#hasTarget>
+                          <http://www.ebi.ac.uk/ena/data/view/JQ434001&display=fasta> ;
+                  <http://www.w3.org/ns/oa#motivatedBy>
+                          "oa:identifying"
+                ] ;
+        <http://purl.org/wf4ever/bundle#hasAnnotation>
+                [ <http://www.w3.org/ns/oa#hasTarget>
+                          <app://26f0bba5-f6d5-4eb6-9b6c-fe8d6c0d7274/workflow/hive-viral-mutation-detection.cwl> ;
+                  <http://www.w3.org/ns/oa#motivatedBy>
+                          "oa:highlighting"
+                ] ;
+        <http://purl.org/wf4ever/bundle#hasAnnotation>
+                [ <http://www.w3.org/ns/oa#bodyValue>
+                          "SNP" ;
+                  <http://www.w3.org/ns/oa#hasTarget>
+                          <app://26f0bba5-f6d5-4eb6-9b6c-fe8d6c0d7274/> ;
+                  <http://www.w3.org/ns/oa#motivatedBy>
+                          "oa:tagging"
+                ] ;
+        <http://purl.org/wf4ever/bundle#hasAnnotation>
+                [ <http://www.w3.org/ns/oa#hasBody>
+                          <app://26f0bba5-f6d5-4eb6-9b6c-fe8d6c0d7274/biocompute.json> ;
+                  <http://www.w3.org/ns/oa#hasTarget>
+                          <app://26f0bba5-f6d5-4eb6-9b6c-fe8d6c0d7274/workflow/obj.1001.yaml> , <app://26f0bba5-f6d5-4eb6-9b6c-fe8d6c0d7274/workflow/hive-viral-mutation-detection.cwl> ;
+                  <http://www.w3.org/ns/oa#motivatedBy>
+                          "oa:describing"
+                ] ;
+        <http://purl.org/wf4ever/bundle#hasAnnotation>
+                [ <http://www.w3.org/ns/oa#hasBody>
+                          <http://schema.org/taxID9606> , <http://identifiers.org/TODO/ICD/B17> , <http://identifiers.org/TODO/DO/1883> ;
+                  <http://www.w3.org/ns/oa#hasTarget>
+                          <app://26f0bba5-f6d5-4eb6-9b6c-fe8d6c0d7274/> ;
+                  <http://www.w3.org/ns/oa#motivatedBy>
+                          "oa:linking"
+                ] ;
+        <http://purl.org/wf4ever/bundle#hasAnnotation>
+                [ <http://www.w3.org/ns/oa#bodyValue>
+                          "antiviral resistance" ;
+                  <http://www.w3.org/ns/oa#hasBody>
+                          <http://example.com/ontology/antiviral> ;
+                  <http://www.w3.org/ns/oa#hasTarget>
+                          <app://26f0bba5-f6d5-4eb6-9b6c-fe8d6c0d7274/> ;
+                  <http://www.w3.org/ns/oa#motivatedBy>
+                          "oa:tagging"
+                ] ;
+        <http://www.openarchives.org/ore/terms/aggregates>
+                <https://hive.biochemistry.gwu.edu/biocompute/view/00123> , <app://26f0bba5-f6d5-4eb6-9b6c-fe8d6c0d7274/workflow/hive-viral-mutation-detection.cwl> , <app://26f0bba5-f6d5-4eb6-9b6c-fe8d6c0d7274/data/SNPProfile.csv> , <app://26f0bba5-f6d5-4eb6-9b6c-fe8d6c0d7274/data/AACalls.csv> , <https://hive.biochemistry.gwu.edu/biocompute/view/00013> , <app://26f0bba5-f6d5-4eb6-9b6c-fe8d6c0d7274/workflow/obj.1001.yaml> , <app://26f0bba5-f6d5-4eb6-9b6c-fe8d6c0d7274/data/SNPProfile.sam> , <app://26f0bba5-f6d5-4eb6-9b6c-fe8d6c0d7274/data/AACalls.vcf> , <app://26f0bba5-f6d5-4eb6-9b6c-fe8d6c0d7274/data/SNPProfile.vcf> , <https://hive.biochemistry.gwu.edu/biocompute/view/10065> , <http://www.ebi.ac.uk/ena/data/view/JQ434001&display=fasta> , <app://26f0bba5-f6d5-4eb6-9b6c-fe8d6c0d7274/workflow/hive-hexagon.cwl> , <app://26f0bba5-f6d5-4eb6-9b6c-fe8d6c0d7274/biocompute.json> ;
+        <http://www.openarchives.org/ore/terms/isDescribedBy>
+                <app://26f0bba5-f6d5-4eb6-9b6c-fe8d6c0d7274/manifest.json> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <app://26f0bba5-f6d5-4eb6-9b6c-fe8d6c0d7274/> .
+
+<http://www.ebi.ac.uk/ena/data/view/JQ434001&display=fasta>
+        <http://purl.org/dc/terms/conformsTo>
+                <http://edamontology.org/format_1929> .
+
+<https://hive.biochemistry.gwu.edu/biocompute/view/TODO-2>
+        <http://purl.org/wf4ever/roterms#orcid>
+                <http://orcid.org/0000-0002-1825-0097#TODO> ;
+        <http://schema.org/affiliation>
+                [ <http://schema.org/url>  <http://www.kcl.ac.uk/> ;
+                  <http://xmlns.com/foaf/0.1/name>
+                          "King's College, London"
+                ] ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Rosalind Franklin" .
+
+<app://26f0bba5-f6d5-4eb6-9b6c-fe8d6c0d7274/workflow/hive-hexagon.cwl>
+        <http://purl.org/dc/elements/1.1/format>
+                "application/x-yaml" ;
+        <http://purl.org/dc/terms/conformsTo>
+                <https://w3id.org/cwl/v1.0/> .
+
+<https://hive.biochemistry.gwu.edu/biocompute/view/TODO-1>
+        <http://purl.org/wf4ever/roterms#orcid>
+                <http://orcid.org/0000-0002-1825-0097#TODO> ;
+        <http://schema.org/affiliation>
+                [ <http://xmlns.com/foaf/0.1/name>
+                          "HMS Beagle" ] ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Charles Darwin" .
+
+
+
+<app://26f0bba5-f6d5-4eb6-9b6c-fe8d6c0d7274/data/SNPProfile.vcf>
+        <http://purl.org/dc/elements/1.1/format>
+                "text/plain" ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://samtools.github.io/hts-specs/VCFv4.2.pdf> .
+
+<app://26f0bba5-f6d5-4eb6-9b6c-fe8d6c0d7274/data/AACalls.vcf>
+        <http://purl.org/dc/elements/1.1/format>
+                "text/plain" ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://samtools.github.io/hts-specs/VCFv4.2.pdf> .
+
+<app://26f0bba5-f6d5-4eb6-9b6c-fe8d6c0d7274/workflow/hive-viral-mutation-detection.cwl>
+        <http://purl.org/dc/elements/1.1/format>
+                "application/x-yaml" ;
+        <http://purl.org/dc/terms/conformsTo>
+                <https://w3id.org/cwl/v1.0/> .
+
+<app://26f0bba5-f6d5-4eb6-9b6c-fe8d6c0d7274/biocompute.json>
+        <http://purl.org/dc/elements/1.1/format>
+                "application/json" ;
+        <http://purl.org/dc/terms/conformsTo>
+                <https://hive.biochemistry.gwu.edu/biocompute/spec-TODO> .
+
+<app://26f0bba5-f6d5-4eb6-9b6c-fe8d6c0d7274/data/SNPProfile.csv>
+        <http://purl.org/dc/elements/1.1/format>
+                "text/csv" .
+
+<app://26f0bba5-f6d5-4eb6-9b6c-fe8d6c0d7274/data/SNPProfile.sam>
+        <http://purl.org/dc/terms/conformsTo>
+                <http://samtools.github.io/hts-specs/SAMv1.pdf> .
+
+<https://hive.biochemistry.gwu.edu/>
+        <http://xmlns.com/foaf/0.1/name>
+                "HIVE BioCompute" .
+
+<app://26f0bba5-f6d5-4eb6-9b6c-fe8d6c0d7274/workflow/obj.1001.yaml>
+        <http://purl.org/dc/elements/1.1/format>
+                "application/json" .
+
+<app://26f0bba5-f6d5-4eb6-9b6c-fe8d6c0d7274/data/AACalls.csv>
+        <http://purl.org/dc/elements/1.1/format>
+                "text/csv" .
