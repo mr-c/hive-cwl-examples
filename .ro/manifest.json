@@ -55,6 +55,10 @@
           "mediatype": "application/x-yaml",
           "conformsTo": "https://w3id.org/cwl/v1.0/"
         },
+        { "uri":  "/workflow/hive-heptagon.cwl",
+          "mediatype": "application/x-yaml",
+          "conformsTo": "https://w3id.org/cwl/v1.0/"
+        },
         { "uri":  "/workflow/obj.1001.yaml",
           "mediatype": "application/json"
         },
