@@ -11,12 +11,12 @@ doc: |
 schema:author:
   class: schema:Person
   schema:name: Charles Darwin
-  schema:sameAs
+  schema:sameAs:
    - id: http://www.isni.org/isni/0000000121251077
 schema:author:
   class: schema:Person
   schema:name: Rosalind Franklin
-  schema:sameAs
+  schema:sameAs:
    - id: http://www.isni.org/isni/0000000066799514
 
 inputs:
